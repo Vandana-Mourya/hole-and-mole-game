@@ -75,6 +75,9 @@ function startGame(){
         startBtn.disabled = false;
         levels.style.visibility = "visible";
     }, 15000);
+    var audioElement = document.getElementById('playsound');
+    audioElement.play();
+
 }
 
 function hitTheMole(e){
